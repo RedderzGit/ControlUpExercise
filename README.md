@@ -8,7 +8,7 @@ I want to state that prior to working through the exercise I had no knowledge of
 The Exercise
 
 -	Create a backend automation framework in C# for the following API endpoint
-o	https://rapidapi.com/DataCrawler/api/tripadvisor16/
+   o	https://rapidapi.com/DataCrawler/api/tripadvisor16/
 -	Create a unit test that will print out cruises with destination “Caribbean” and sort them by number of crew.
 -	Query ‘Get Cruises Location’ endpoint to get destinationId for Caribbean
 -	Use the destinationId in ‘Search Cruises’ endpoint call to print out all ship names and sort the records in descending order by number of crew
@@ -26,11 +26,11 @@ With the API Key and value, I was now able to run a GET and review the JSON to f
 
 I would then input this into the second API and search all cruises which had the destinationid for Caribbean.
 
-With this information I could begin to research how to make API calls using C#. I began as all IT Professionals do, with Google, this lead me here: 
-•	https://learn.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client
+With this information I could begin to research how to make API calls using C#. I began as all IT Professionals do, with Google, this lead me here:
+- https://learn.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client
 
-Reading through the webpage I determined I would need to use the HttpClient Class to create the GET request. This led me here: 
-•	https://learn.microsoft.com/en-us/dotnet/csharp/tutorials/console-webapiclient
+Reading through the webpage I determined I would need to use the HttpClient Class to create the GET request. This led me here:
+- https://learn.microsoft.com/en-us/dotnet/csharp/tutorials/console-webapiclient
 
 Unfortunately, I wasn’t able to get anywhere with this approach and felt I needed something simpler. 
 
